@@ -62,7 +62,10 @@ function MainHead() {
           color: "rgb(241, 235, 201)",
         }}
       >
-        <div className="left-text" style={{ textAlign: "left" }}>
+        <div
+          className="left-text"
+          style={{ textAlign: "left", marginLeft: "21%" }}
+        >
           <h2
             style={{
               margin: 0,
@@ -73,7 +76,10 @@ function MainHead() {
           </h2>
           <h2 style={{ margin: 0, fontSize: "5vw" }}>I'M</h2>
         </div>
-        <div className="right-text" style={{ textAlign: "right" }}>
+        <div
+          className="right-text"
+          style={{ textAlign: "right", marginRight: "30%" }}
+        >
           <h1 style={{ margin: 0, fontSize: "15vw" }}>GOKUL</h1>
           <h1 style={{ margin: 0, fontSize: "15vw" }}>JAYAN</h1>
         </div>
