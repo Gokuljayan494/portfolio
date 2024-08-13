@@ -1,0 +1,16 @@
+.pw-m-scale-text-mask__text {
+  color: #fff;
+  filter: blur(0);
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0 10vw;
+  max-width: 100%;
+  text-align: center;
+  transform-style: preserve-3d;
+}
+
+@media (min-width: 375px) {
+  .pw-m-scale-text-mask__text {
+    font-size: clamp(4pc, 15vw, 3in);
+  }
+}
