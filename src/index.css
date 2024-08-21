@@ -1,13 +1,67 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@font-face {
+  font-family: "bil-bold";
+  src: local("bil-bold"),
+    url("./assets/Bilgosia-Font/OpenType-PS/Bilgosia-SansBold.otf")
+      format("opentype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "bil-boldItalic";
+  src: local("bil-boldItalic"),
+    url("./assets/Bilgosia-Font/OpenType-PS/Bilgosia-SansBoldItalic.otf")
+      format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "bil-regular";
+  src: local("bil-regular"),
+    url("./assets/Bilgosia-Font/OpenType-PS/Bilgosia-SansRegular.otf")
+      format("opentype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "bil-regularItalic";
+  src: local("bil-regularItalic"),
+    url("./assets/Bilgosia-Font/OpenType-PS/Bilgosia-SansRegularItalic.otf")
+      format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "bil-script";
+  src: local("bil-script"),
+    url("./assets/Bilgosia-Font/OpenType-PS/Bilgosia-Script.otf")
+      format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "bil-Serif";
+  src: local("bil-Serif"),
+    url("./assets/Bilgosia-Font/OpenType-PS/Bilgosia-Serif.otf")
+      format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "bil-SerifItalic";
+  src: local("bil-SerifItalic"),
+    url("./assets/Bilgosia-Font/OpenType-PS/Bilgosia-SerifItalic.otf")
+      format("opentype");
+  font-weight: normal;
 }

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./mainHead.css";
+import Header from "./Header";
 
 function MainHead() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -31,21 +32,6 @@ function MainHead() {
       }}
     >
       <div
-        style={{
-          position: "fixed",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%",
-          objectFit: "cover",
-          zIndex: 1,
-          opacity: scale >= 1.7 ? scrollPosition / 1000 : 0,
-          transition: "opacity 0.5s ease-out",
-          backgroundPosition: `center ${scrollPosition * 0.5}px`,
-          backgroundColor: "rgb(241, 235, 201)",
-        }}
-      ></div>
-      <div
         className="main-text-container"
         style={{
           transform: `translate(-50%, -50%) scale(${scale})`,
@@ -59,7 +45,7 @@ function MainHead() {
           height: "100%",
           padding: "0 5%",
           fontFamily: "Montserrat",
-          color: "rgb(241, 235, 201)",
+          color: "white",
         }}
       >
         <div
@@ -83,6 +69,24 @@ function MainHead() {
           <h1 style={{ margin: 0, fontSize: "15vw" }}>GOKUL</h1>
           <h1 style={{ margin: 0, fontSize: "15vw" }}>JAYAN</h1>
         </div>
+      </div>
+
+      <div
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          zIndex: 1,
+          opacity: scale >= 1.7 ? scrollPosition / 1000 : 0,
+          transition: "opacity 0.5s ease-out",
+          backgroundPosition: `center ${scrollPosition * 0.5}px`,
+          backgroundColor: "black",
+        }}
+      >
+        <Header />
       </div>
     </div>
   );
